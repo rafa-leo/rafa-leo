@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="x2t5C4RU685nWMusXcoe">
-    <mxGraphModel dx="1803" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -430,7 +430,7 @@
         <mxCell id="Ipwv6BsnHtet5vs8D7pE-11" value="cancelDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5vuUj61PaA2XdSbD405M-52" vertex="1">
           <mxGeometry y="204.4" width="180" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="GrrjClDn0SGh4QmFP-2G-16" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5vuUj61PaA2XdSbD405M-52">
+        <mxCell id="GrrjClDn0SGh4QmFP-2G-19" value="baseline" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5vuUj61PaA2XdSbD405M-52">
           <mxGeometry y="232.4" width="180" height="28" as="geometry" />
         </mxCell>
         <mxCell id="5vuUj61PaA2XdSbD405M-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.977;entryY=0.904;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="wzfwyT9dnHNH-9bryAYG-72" target="5vuUj61PaA2XdSbD405M-55" edge="1">
@@ -471,10 +471,15 @@
             <mxPoint x="1625" y="-110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ipwv6BsnHtet5vs8D7pE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;exitX=0.483;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GrrjClDn0SGh4QmFP-2G-16" target="RUYIQAWD2LKwz4ouAwsY-9" edge="1">
+        <mxCell id="Ipwv6BsnHtet5vs8D7pE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;exitX=0.518;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GrrjClDn0SGh4QmFP-2G-19" target="RUYIQAWD2LKwz4ouAwsY-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1784" y="218" as="sourcePoint" />
+            <mxPoint x="1476.94" y="189.61599999999999" as="sourcePoint" />
             <mxPoint x="910" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1483" y="265" />
+              <mxPoint x="1471" y="265" />
+              <mxPoint x="1471" y="368" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ipwv6BsnHtet5vs8D7pE-19" value="Spot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
@@ -640,6 +645,15 @@
             <mxPoint x="1320" y="-264.4" as="sourcePoint" />
             <mxPoint x="1414" y="-320.4" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GrrjClDn0SGh4QmFP-2G-17" value="&amp;lt;Imutable&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="-89.99999999999999" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GrrjClDn0SGh4QmFP-2G-18" value="&amp;lt;Imutable&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-350.4" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GrrjClDn0SGh4QmFP-2G-20" value="Depending on the billing_type the start date, end date and baseline are processed differently.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;On Demand Billing:&lt;/div&gt;&lt;div&gt;startdate is used to make teh first billing process and defined the next billing date&lt;/div&gt;&lt;div&gt;EndDate is null because there is no end date in on demand&lt;/div&gt;&lt;div&gt;baseline is used to evaluat ethe price: baseline*unitprice&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Commited billing:&lt;/div&gt;&lt;div&gt;start date is used to make the fiest billing&amp;nbsp;&lt;/div&gt;&lt;div&gt;End date is used to unpublish plants&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;baseline is used to control sport number&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Spot-month billing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sart date used to make the first billing cycle and evaluate the spot-month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;end date is null, not used&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;baseline in used to&amp;nbsp; .control teh spot month&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="40" width="460" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
