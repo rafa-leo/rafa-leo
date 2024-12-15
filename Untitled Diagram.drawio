@@ -237,7 +237,7 @@
           <mxGeometry y="232.4" width="180" height="28" as="geometry" />
         </mxCell>
         <mxCell id="RUYIQAWD2LKwz4ouAwsY-9" value="billing_cycle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="260" width="180" height="204.4" as="geometry" />
+          <mxGeometry x="1380" y="368" width="180" height="204.4" as="geometry" />
         </mxCell>
         <mxCell id="RUYIQAWD2LKwz4ouAwsY-10" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RUYIQAWD2LKwz4ouAwsY-9" vertex="1">
           <mxGeometry y="28.4" width="180" height="28" as="geometry" />
